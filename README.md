@@ -71,7 +71,7 @@
   </nav>
 
   <header class="hero container">
-    <img src="5fd82479-33ce-4721-9a0d-c2ca3fa73934.JPG" alt="Profile picture" class="profile-pic" />
+    <img src="1a8961bc-7b4a-4b35-9a63-f5b158c621d4.JPG" alt="Profile picture" class="profile-pic" />
     <span class="pill">Welcome</span>
     <h1>Hi, I'm <span style="color:var(--brand)">Shelly!</span></h1>
     <p>A graduate student at the WSoS in the Molecular and Cellular Neuroscience track.</p>
