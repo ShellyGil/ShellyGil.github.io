@@ -41,9 +41,6 @@
     .hero { padding: 72px 24px 40px; text-align: center; }
     .hero h1 { font-size: clamp(32px, 6vw, 54px); line-height:1.1; margin: 0 0 12px; }
     .hero p { color: var(--muted); margin: 0 auto 22px; max-width: 700px; }
-    .cta { display:inline-flex; gap:12px; flex-wrap: wrap; justify-content:center; }
-    .btn { background: linear-gradient(135deg, var(--brand), var(--brand-2)); color:#0b1020; font-weight:800; padding: 12px 18px; border-radius: var(--radius); border: none; box-shadow: 0 10px 20px rgba(34,211,238,.15), 0 4px 10px rgba(167,139,250,.12); }
-    .btn.secondary { background: transparent; color: var(--text); border:1px solid rgba(255,255,255,.12); }
 
     /* ===== Sections ===== */
     section { padding: 40px 0; }
@@ -81,39 +78,45 @@
     <span class="pill">Welcome</span>
     <h1>Hi, I'm <span style="color:var(--brand)">Shelly!</span></h1>
     <p>A graduate student at the WSOS in the Molecular and Cellular Neuroscience track.</p>
-    <div class="cta">
-      <a class="btn" href="#projects">See my work</a>
-      <a class="btn secondary" href="#contact">Contact me</a>
-    </div>
+    <!-- Removed the CTA buttons per your request -->
   </header>
 
-  <!-- Projects -->
-<section id="Rotations" class="container">
-<h2>Rotations</h2>
-<div class="grid">
-<article class="card">
-<h3>Rotation One</h3>
-<p>For my first rotation in
-<a href="https://www.yaron-lab.com/" target="_blank" rel="noreferrer">Yaron's Lab</a>,
-I'll be working on DRG sensory neurons hyperinnervation under inflammation.
-</p>
-<article class="card">
-<h3>Rotation Two</h3>
-<p>For my next rotation in</p>
-<a href="https://www.weizmann.ac.il/molgen/hornstein/home/" target="_blank" rel="noreferrer">Hornstein's Lab</a>,
-I'll be working on genes related to the ALS disease.
-</p>
-<article class="card">
-<h3>Rotation Three</h3>
-<p>I havn't selected my last one so any suggestions will be very welcome!</p>
-</div>
-</section>
+  <!-- Rotations/Projects -->
+  <section id="projects" class="container">
+    <h2>Rotations</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>Rotation One</h3>
+        <p>
+          For my first rotation in
+          <a href="https://www.yaron-lab.com/" target="_blank" rel="noreferrer">Yaron's Lab</a>,
+          I'll be working on DRG sensory neurons hyperinnervation under inflammation.
+        </p>
+        <a href="https://www.yaron-lab.com/" target="_blank" rel="noreferrer">View project →</a>
+      </article>
+
+      <article class="card">
+        <h3>Rotation Two</h3>
+        <p>
+          For my next rotation in
+          <a href="https://www.weizmann.ac.il/molgen/hornstein/home/" target="_blank" rel="noreferrer">Hornstein's Lab</a>,
+          I'll be working on genes related to ALS.
+        </p>
+        <a href="https://www.weizmann.ac.il/molgen/hornstein/home/" target="_blank" rel="noreferrer">View project →</a>
+      </article>
+
+      <article class="card">
+        <h3>Rotation Three</h3>
+        <p>I haven't selected my last one, so suggestions are very welcome!</p>
+      </article>
+    </div>
+  </section>
 
   <!-- About -->
   <section id="about" class="container">
     <h2>About</h2>
     <div class="card" style="padding:24px">
-      <p>As you probably already know, my name is Shelly. I started me graduate studies at the Weizmann institute this October and I'm hoping that someday I'll be able to code on python for any lab project that I might need, withous having to rely on anyone!</p>
+      <p>As you probably already know, my name is Shelly. I started my graduate studies at the Weizmann Institute this October and I'm hoping that someday I'll be able to code in Python for any lab project that I might need, without having to rely on anyone!</p>
     </div>
   </section>
 
@@ -121,14 +124,15 @@ I'll be working on genes related to the ALS disease.
   <section id="contact" class="container">
     <h2>Contact</h2>
     <div class="card" style="padding:24px">
-      <p>Email: <a href="shelly.gilad@weizmann.ac.il">you@example.com</a><br>
-      GitHub: <a href="https://github.com/shellygil" target="_blank" rel="noreferrer">@yourusername</a>
+      <p>
+        Email: <a href="mailto:shelly.gilad@weizmann.ac.il">shelly.gilad@weizmann.ac.il</a><br>
+        GitHub: <a href="https://github.com/shellygil" target="_blank" rel="noreferrer">@shellygil</a>
       </p>
     </div>
   </section>
 
   <footer class="container">
-    <p>© <span id="year"></span> Your Name · Built with GitHub Pages</p>
+    <p>© <span id="year"></span> Shelly Gilad · Built with GitHub Pages</p>
   </footer>
 
   <script>
@@ -137,6 +141,3 @@ I'll be working on genes related to the ALS disease.
   </script>
 </body>
 </html>
-
-
-
