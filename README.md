@@ -6,5 +6,4 @@ Part of [Yaron's lab](https://www.yaron-lab.com/)
 
 #
 
-## mac
 
