@@ -79,31 +79,31 @@
   <!-- Hero -->
   <header class="hero container">
     <span class="pill">Welcome</span>
-    <h1>Hi, I'm <span style="color:var(--brand)">Your Name</span>.</h1>
-    <p>A short one-liner about who you are and what you do. Keep it friendly and clear. You can edit everything in this single file.</p>
+    <h1>Hi, I'm <span style="color:var(--brand)">Shelly!</span>.</h1>
+    <p>A graduate student at the WSOS in the molecular and cellular neuroscience track.</p>
     <div class="cta">
       <a class="btn" href="#projects">See my work</a>
       <a class="btn secondary" href="#contact">Contact me</a>
     </div>
   </header>
 
-  <!-- Projects -->
-  <section id="projects" class="container">
-    <h2>Projects</h2>
+  <!-- Rotations -->
+  <section id="rotations" class="container">
+    <h2>Rotations</h2>
     <div class="grid">
       <article class="card">
-        <h3>Project One</h3>
-        <p>Describe what it is, why it matters, and your role. Add a link below.</p>
+        <h3>Rotation One</h3>
+        <p>For my first rotation in [Yaron's Lab](https://www.yaron-lab.com/)i'll be working on DRG sensory neurons hyperinnervation under inflamation .</p>
         <a href="#">View project →</a>
       </article>
       <article class="card">
-        <h3>Project Two</h3>
-        <p>Another quick description. Keep it 1–2 sentences. You can paste images inside cards if you like.</p>
+        <h3>Rotation Two</h3>
+        <p>For my next rotation, in [Hornstein Lab](https://www.weizmann.ac.il/molgen/hornstein/)</p>
         <a href="#">View project →</a>
       </article>
       <article class="card">
-        <h3>Project Three</h3>
-        <p>Short blurb goes here. If you have more than 3 projects, duplicate a card.</p>
+        <h3>Rotation Three</h3>
+        <p>Since I don't have a third rotation decided yet any suggestions will be very appreciated!</p>
         <a href="#">View project →</a>
       </article>
     </div>
