@@ -69,7 +69,7 @@
     <div class="inner">
       <div class="brand">My Site</div>
       <div class="menu">
-        <a href="#projects">Projects</a>
+        <a href="#projects">Rotations</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </div>
@@ -87,40 +87,33 @@
     </div>
   </header>
 
-  <!-- Rotations -->
-  <section id="rotations" class="container">
-    <h2>Rotations</h2>
-    <div class="grid">
-      <article class="card">
-        <h3>Rotation One</h3>
-        <p>
-        For my first rotation in 
+  <!-- Projects -->
+<section id="Rotations" class="container">
+<h2>Rotations</h2>
+<div class="grid">
+<article class="card">
+<h3>Rotation One</h3>
+<p>For my first rotation in
 <a href="https://www.yaron-lab.com/" target="_blank" rel="noreferrer">Yaron's Lab</a>,
 I'll be working on DRG sensory neurons hyperinnervation under inflammation.
-<p>
-      </article>
-      <article class="card">
-        <h3>Rotation Two</h3>
-        <p>
-        For my next rotation in 
+</p>
+<article class="card">
+<h3>Rotation Two</h3>
+<p>For my next rotation in</p>
 <a href="https://www.weizmann.ac.il/molgen/hornstein/home/" target="_blank" rel="noreferrer">Hornstein's Lab</a>,
 I'll be working on genes related to the ALS disease.
-<p>
-        <p>For my next rotation, in [Hornstein Lab](https://www.weizmann.ac.il/molgen/hornstein/)</p>
-        <a href="#">View project →</a>
-      </article>
-      <article class="card">
-        <h3>Rotation Three</h3>
-        
-      </article>
-    </div>
-  </section>
+</p>
+<article class="card">
+<h3>Rotation Three</h3>
+<p>I havn't selected my last one so any suggestions will be very welcome!</p>
+</div>
+</section>
 
   <!-- About -->
   <section id="about" class="container">
     <h2>About</h2>
     <div class="card" style="padding:24px">
-      <p>Write 3–5 sentences about you: what you do, tools you use, and what you're looking for. You can include <strong>bold</strong> text and <a href="#">links</a>.</p>
+      <p>As you probably already know, my name is Shelly. I started me graduate studies at the Weizmann institute this October and I'm hoping that someday I'll be able to code on python for any lab project that I might need, withous having to rely on anyone!</p>
     </div>
   </section>
 
@@ -128,8 +121,8 @@ I'll be working on genes related to the ALS disease.
   <section id="contact" class="container">
     <h2>Contact</h2>
     <div class="card" style="padding:24px">
-      <p>Email: <a href="mailto:you@example.com">you@example.com</a><br>
-      GitHub: <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">@yourusername</a>
+      <p>Email: <a href="shelly.gilad@weizmann.ac.il">you@example.com</a><br>
+      GitHub: <a href="https://github.com/shellygil" target="_blank" rel="noreferrer">@yourusername</a>
       </p>
     </div>
   </section>
