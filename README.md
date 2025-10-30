@@ -79,8 +79,8 @@
   <!-- Hero -->
   <header class="hero container">
     <span class="pill">Welcome</span>
-    <h1>Hi, I'm <span style="color:var(--brand)">Shelly!</span>.</h1>
-    <p>A graduate student at the WSOS in the molecular and cellular neuroscience track.</p>
+    <h1>Hi, I'm <span style="color:var(--brand)">Shelly!</span></h1>
+    <p>A graduate student at the WSOS in the Molecular and Cellular Neuroscience track.</p>
     <div class="cta">
       <a class="btn" href="#projects">See my work</a>
       <a class="btn secondary" href="#contact">Contact me</a>
@@ -93,18 +93,25 @@
     <div class="grid">
       <article class="card">
         <h3>Rotation One</h3>
-        <p>For my first rotation in [Yaron's Lab](https://www.yaron-lab.com/)i'll be working on DRG sensory neurons hyperinnervation under inflamation .</p>
-        <a href="#">View project →</a>
+        <p>
+        For my first rotation in 
+<a href="https://www.yaron-lab.com/" target="_blank" rel="noreferrer">Yaron's Lab</a>,
+I'll be working on DRG sensory neurons hyperinnervation under inflammation.
+<p>
       </article>
       <article class="card">
         <h3>Rotation Two</h3>
+        <p>
+        For my next rotation in 
+<a href="https://www.weizmann.ac.il/molgen/hornstein/home/" target="_blank" rel="noreferrer">Hornstein's Lab</a>,
+I'll be working on genes related to the ALS disease.
+<p>
         <p>For my next rotation, in [Hornstein Lab](https://www.weizmann.ac.il/molgen/hornstein/)</p>
         <a href="#">View project →</a>
       </article>
       <article class="card">
         <h3>Rotation Three</h3>
-        <p>Since I don't have a third rotation decided yet any suggestions will be very appreciated!</p>
-        <a href="#">View project →</a>
+        
       </article>
     </div>
   </section>
