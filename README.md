@@ -100,7 +100,7 @@
   <section id="about" class="container">
     <h2>About</h2>
     <div class="card" style="padding:24px">
-      <p>As you probably already know, my name is Shelly. I finished my undergraduate at the Hebrew University, majoring in neuoroscience. During the past two years I worked in <a href="https://medneuro.huji.ac.il/lab-sites/joshua-a-goldberg/" target="_blank" rel="noreferrer">Goldberg's Lab</a>, where I studied Parkinson's Disease on mice. Recently I started my graduate studies at the Weizmann Institute and am hoping that someday I'll be able to code in Python for any lab project that I might need, without having to rely on anyone!</p>
+      <p>As you probably already know, my name is Shelly. In my free time I like to play the flute, since I played with the Israeli Youth Philharmonic Orchestra and completed 15 Bagrut points in music studies. I finished my undergraduate at the Hebrew University, majoring in neuoroscience. During the past two years I worked in <a href="https://medneuro.huji.ac.il/lab-sites/joshua-a-goldberg/" target="_blank" rel="noreferrer">Goldberg's Lab</a>, where I studied Parkinson's Disease on mice. Recently I started my graduate studies at the Weizmann Institute and am hoping that someday I'll be able to code in Python for any lab project that I might need, without having to rely on anyone!</p>
     </div>
   </section>
 
