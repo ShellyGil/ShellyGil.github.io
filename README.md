@@ -1,24 +1,20 @@
-<!doctype html>
-<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>My Site</title>
   <meta name="description" content="Personal website" />
   <style>
-    /* ===== Easy theme knobs ===== */
     :root{
-      --bg: #0f172a;          /* page background */
-      --text: #e5e7eb;        /* primary text */
-      --muted: #94a3b8;       /* secondary text */
-      --card: #111827;        /* card background */
-      --brand: #22d3ee;       /* accent color */
-      --brand-2: #a78bfa;     /* secondary accent */
-      --radius: 18px;         /* card/button rounding */
-      --maxw: 960px;          /* content width */
+      --bg: #0f172a;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --card: #111827;
+      --brand: #22d3ee;
+      --brand-2: #a78bfa;
+      --radius: 18px;
+      --maxw: 960px;
     }
 
-    /* ===== Base ===== */
     * { box-sizing: border-box; }
     html, body { margin:0; padding:0; }
     body {
@@ -29,7 +25,6 @@
     a:hover { text-decoration: underline; }
     .container { max-width: var(--maxw); margin: 0 auto; padding: 24px; }
 
-    /* ===== Top nav ===== */
     .nav { position: sticky; top: 0; backdrop-filter: blur(8px); background: rgba(15,23,42,.6); border-bottom: 1px solid rgba(255,255,255,.06); z-index: 20; }
     .nav .inner { display:flex; align-items:center; justify-content: space-between; gap: 12px; padding: 12px 24px; max-width: var(--maxw); margin: 0 auto; }
     .brand { font-weight: 800; letter-spacing: .2px; }
@@ -37,31 +32,33 @@
     .menu a { color: var(--muted); font-weight: 600; }
     .menu a:hover { color: var(--text); }
 
-    /* ===== Hero ===== */
-    .hero { padding: 72px 24px 40px; text-align: center; }
+    .hero { padding: 72px 24px 40px; text-align: center; position: relative; }
     .hero h1 { font-size: clamp(32px, 6vw, 54px); line-height:1.1; margin: 0 0 12px; }
     .hero p { color: var(--muted); margin: 0 auto 22px; max-width: 700px; }
-
-    /* ===== Sections ===== */
-    section { padding: 40px 0; }
-    h2 { font-size: clamp(24px, 4.5vw, 34px); margin: 0 0 18px; }
-    .grid { display:grid; grid-template-columns: repeat(12, 1fr); gap: 18px; }
-    .card { grid-column: span 12; background: rgba(17,24,39,.8); border: 1px solid rgba(255,255,255,.06); border-radius: var(--radius); padding: 18px; }
-    .card h3 { margin: 0 0 8px; font-size: 20px; }
-    .card p { color: var(--muted); margin: 0 0 12px; }
-    @media (min-width: 720px) {
-      .card { grid-column: span 4; }
+    .profile-pic {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--brand);
+      box-shadow: 0 0 12px rgba(34,211,238,.4);
     }
 
-    /* ===== Footer ===== */
-    footer { border-top: 1px solid rgba(255,255,255,.06); color: var(--muted); }
+    section { padding: 40px 0; }
+    h2 { font-size: clamp(24px, 4.5vw, 34px); margin: 0 0 18px; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+    .card { background: rgba(17,24,39,.8); border: 1px solid rgba(255,255,255,.06); border-radius: var(--radius); padding: 18px; }
+    .card h3 { margin: 0 0 8px; font-size: 20px; }
+    .card p { color: var(--muted); margin: 0 0 12px; }
 
-    /* ===== Utilities ===== */
+    footer { border-top: 1px solid rgba(255,255,255,.06); color: var(--muted); }
     .pill { display:inline-block; padding:4px 10px; border-radius: 999px; background: rgba(255,255,255,.06); color: var(--muted); font-size: 12px; font-weight:700; letter-spacing:.3px; }
   </style>
 </head>
 <body>
-  <!-- Top nav -->
   <nav class="nav">
     <div class="inner">
       <div class="brand">My Site</div>
@@ -73,61 +70,45 @@
     </div>
   </nav>
 
-  <!-- Hero -->
   <header class="hero container">
+    <img src="5fd82479-33ce-4721-9a0d-c2ca3fa73934.JPG" alt="Profile picture" class="profile-pic" />
     <span class="pill">Welcome</span>
     <h1>Hi, I'm <span style="color:var(--brand)">Shelly!</span></h1>
-    <p>A graduate student at the WSOS in the Molecular and Cellular Neuroscience track.</p>
-    <!-- Removed the CTA buttons per your request -->
+    <p>A graduate student at the WSoS in the Molecular and Cellular Neuroscience track.</p>
   </header>
 
-  <!-- Rotations/Projects -->
   <section id="projects" class="container">
     <h2>Rotations</h2>
     <div class="grid">
       <article class="card">
         <h3>Rotation One</h3>
-        <p>
-          For my first rotation in
-          <a href="https://www.yaron-lab.com/" target="_blank" rel="noreferrer">Yaron's Lab</a>,
-          I'll be working on DRG sensory neurons hyperinnervation under inflammation.
-        </p>
-        <a href="https://www.yaron-lab.com/" target="_blank" rel="noreferrer">View project →</a>
+        <p>For my first rotation in <a href="https://www.yaron-lab.com/" target="_blank" rel="noreferrer">Yaron's Lab</a>, I'll be working on DRG sensory neurons hyperinnervation under inflammation.</p>
       </article>
 
       <article class="card">
         <h3>Rotation Two</h3>
-        <p>
-          For my next rotation in
-          <a href="https://www.weizmann.ac.il/molgen/hornstein/home/" target="_blank" rel="noreferrer">Hornstein's Lab</a>,
-          I'll be working on genes related to ALS.
-        </p>
-        <a href="https://www.weizmann.ac.il/molgen/hornstein/home/" target="_blank" rel="noreferrer">View project →</a>
+        <p>For my next rotation in <a href="https://www.weizmann.ac.il/molgen/hornstein/home/" target="_blank" rel="noreferrer">Hornstein's Lab</a>, I'll be working on genes related to ALS.</p>
       </article>
 
       <article class="card">
         <h3>Rotation Three</h3>
-        <p>I haven't selected my last one, so suggestions are very welcome!</p>
+        <p>I haven't selected my last one yet, so suggestions are very welcome!</p>
       </article>
     </div>
   </section>
 
-  <!-- About -->
   <section id="about" class="container">
     <h2>About</h2>
     <div class="card" style="padding:24px">
-      <p>As you probably already know, my name is Shelly. I started my graduate studies at the Weizmann Institute this October and I'm hoping that someday I'll be able to code in Python for any lab project that I might need, without having to rely on anyone!</p>
+      <p>As you probably already know, my name is Shelly. I finished my undergraduate at the Hebrew University, majoring in neuoroscience. During the past two years I worked in <a href="https://medneuro.huji.ac.il/lab-sites/joshua-a-goldberg/" target="_blank" rel="noreferrer">Goldberg's Lab</a>, where I studied Parkinson's Disease on mice. Recently I started my graduate studies at the Weizmann Institute and am hoping that someday I'll be able to code in Python for any lab project that I might need, without having to rely on anyone!</p>
     </div>
   </section>
 
-  <!-- Contact -->
   <section id="contact" class="container">
     <h2>Contact</h2>
     <div class="card" style="padding:24px">
-      <p>
-        Email: <a href="mailto:shelly.gilad@weizmann.ac.il">shelly.gilad@weizmann.ac.il</a><br>
-        GitHub: <a href="https://github.com/shellygil" target="_blank" rel="noreferrer">@shellygil</a>
-      </p>
+      <p>Email: <a href="mailto:shelly.gilad@weizmann.ac.il">shelly.gilad@weizmann.ac.il</a><br>
+      GitHub: <a href="https://github.com/shellygil" target="_blank" rel="noreferrer">@shellygil</a></p>
     </div>
   </section>
 
@@ -136,8 +117,6 @@
   </footer>
 
   <script>
-    // set year
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
-</html>
